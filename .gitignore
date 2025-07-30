@@ -1,0 +1,21 @@
+# vscode
+.vscode
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Django
+**/migrations/*
+!**/migrations/__init__.py
+db.sqlite3
+
+# ruff
+.ruff_cache

@@ -1,0 +1,20 @@
+[project]
+name = "teacher_ict_app"
+version = "0.1.0"
+description = """
+              A simple courses platform designed for teachers to share educational content with students.
+              Teachers can easily organize lessons, assign quizzes for each lesson,
+              and include weekly assessments to monitor student progress.
+              The system also provides tracking tools to help the teacher evaluate individual student performance all the time. 
+              """
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2",
+    "djangorestframework>=3.16.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.10",
+]
